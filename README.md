@@ -12,7 +12,7 @@
 - **Embedded IoT Safety**: Real-time driver fatigue & alcohol detection with ESP32-CAM and GSM SIM800C.
 - **Categorized Skills**: Categorized into Programming, Backend, AI/ML, Databases, and Tools with interactive filter tabs.
 - **Interactive Modals**: Detailed System Architecture / Case Study modal and a clean Printable/PDF Resume viewer.
-- **GitHub Live Activity Grid**: Showcases repositories, contribution cadence, and language distribution for `VELUSAMY-22AIO56`.
+- **GitHub Live Activity Grid**: Showcases repositories, contribution cadence, and language distribution for `VELUSAMY-22AI056`.
 - **Zero Build Overhead & 100% Offline/Online Ready**: Double-click `index.html` to run immediately in any modern browser, or deploy directly to GitHub Pages / Vercel / Netlify!
 
 ---
@@ -27,9 +27,9 @@ Start-Process .\index.html
 ```
 
 ### Option 2: Deploy to GitHub Pages
-1. Push this repository to GitHub under username `VELUSAMY-22AIO56`.
+1. Push this repository to GitHub under username `VELUSAMY-22AI056`.
 2. Go to **Repository Settings** ➔ **Pages** ➔ Set branch to `main` and root to `/`.
-3. Your portfolio will be live at: `https://VELUSAMY-22AIO56.github.io/portfolio`
+3. Your portfolio will be live at: `https://VELUSAMY-22AI056.github.io/portfolio`
 
 ---
 

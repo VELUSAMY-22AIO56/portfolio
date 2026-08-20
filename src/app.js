@@ -8,8 +8,8 @@ const PORTFOLIO_DATA = {
     college: "Nandha Engineering College",
     location: "Tamil Nadu, India",
     email: "velu2004.guru@gmail.com",
-    githubUsername: "VELUSAMY-22AIO56",
-    githubUrl: "https://github.com/VELUSAMY-22AIO56",
+    githubUsername: "VELUSAMY-22AI056",
+    githubUrl: "https://github.com/VELUSAMY-22AI056",
     linkedinUrl: "https://linkedin.com/in/velusamy-g",
     aboutBio: [
       "I am a B.Tech Artificial Intelligence & Data Science graduate from Nandha Engineering College, dedicated to building scalable backend systems, microservices architectures, and practical intelligent applications.",
@@ -125,7 +125,7 @@ const PORTFOLIO_DATA = {
         "Dynamic Registry: Netflix Eureka handles zero-configuration service discovery and automated health monitoring.",
         "Data Integrity: Spring Data JPA + MySQL ensure strict schema validation and ACID-compliant transactional guarantees."
       ],
-      githubUrl: "https://github.com/VELUSAMY-22AIO56/SkillSphere-Microservices",
+      githubUrl: "https://github.com/VELUSAMY-22AI056/SkillSphere-Microservices",
       liveUrl: "#"
     },
     {
@@ -157,7 +157,7 @@ const PORTFOLIO_DATA = {
         "Explainability Hook: Computes marginal feature contributions to explain why a specific packet was flagged.",
         "Visual Diagnostics: Streamlit UI delivers live waterfall plots and decision boundaries for SOC analysts."
       ],
-      githubUrl: "https://github.com/VELUSAMY-22AIO56/Explainable-DQN-NIDS",
+      githubUrl: "https://github.com/VELUSAMY-22AI056/Explainable-DQN-NIDS",
       liveUrl: "#"
     },
     {
@@ -189,7 +189,7 @@ const PORTFOLIO_DATA = {
         "Telemetry & Telephony: SIM800C executes AT commands to immediately broadcast warning messages.",
         "Active Safety: Integrates an ignition lockout relay to prevent driving under unsafe conditions."
       ],
-      githubUrl: "https://github.com/VELUSAMY-22AIO56/Anti-Sleep-Driver-Safety",
+      githubUrl: "https://github.com/VELUSAMY-22AI056/Anti-Sleep-Driver-Safety",
       liveUrl: "#"
     }
   ],
@@ -285,8 +285,8 @@ const PORTFOLIO_DATA = {
   ],
 
   github: {
-    username: "VELUSAMY-22AIO56",
-    profileUrl: "https://github.com/VELUSAMY-22AIO56",
+    username: "VELUSAMY-22AI056",
+    profileUrl: "https://github.com/VELUSAMY-22AI056",
     headline: "Building. Learning. Shipping.",
     repositories: [
       {
@@ -296,7 +296,7 @@ const PORTFOLIO_DATA = {
         languageColor: "#f97316",
         stars: 12,
         forks: 4,
-        url: "https://github.com/VELUSAMY-22AIO56/SkillSphere-Microservices"
+        url: "https://github.com/VELUSAMY-22AI056/SkillSphere-Microservices"
       },
       {
         name: "Explainable-DQN-NIDS",
@@ -305,7 +305,7 @@ const PORTFOLIO_DATA = {
         languageColor: "#3b82f6",
         stars: 15,
         forks: 5,
-        url: "https://github.com/VELUSAMY-22AIO56/Explainable-DQN-NIDS"
+        url: "https://github.com/VELUSAMY-22AI056/Explainable-DQN-NIDS"
       },
       {
         name: "Anti-Sleep-Driver-Safety",
@@ -314,7 +314,7 @@ const PORTFOLIO_DATA = {
         languageColor: "#ec4899",
         stars: 9,
         forks: 2,
-        url: "https://github.com/VELUSAMY-22AIO56/Anti-Sleep-Driver-Safety"
+        url: "https://github.com/VELUSAMY-22AI056/Anti-Sleep-Driver-Safety"
       },
       {
         name: "Java-Spring-Boot-Rest-APIs",
@@ -323,7 +323,7 @@ const PORTFOLIO_DATA = {
         languageColor: "#f97316",
         stars: 8,
         forks: 3,
-        url: "https://github.com/VELUSAMY-22AIO56/Java-Spring-Boot-Rest-APIs"
+        url: "https://github.com/VELUSAMY-22AI056/Java-Spring-Boot-Rest-APIs"
       }
     ],
     techBreakdown: [

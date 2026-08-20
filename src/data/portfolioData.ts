@@ -60,8 +60,8 @@ export const PORTFOLIO_DATA = {
     college: "Nandha Engineering College",
     location: "Tamil Nadu, India",
     email: "velu2004.guru@gmail.com",
-    githubUsername: "VELUSAMY-22AIO56",
-    githubUrl: "https://github.com/VELUSAMY-22AIO56",
+    githubUsername: "VELUSAMY-22AI056",
+    githubUrl: "https://github.com/VELUSAMY-22AI056",
     linkedinUrl: "https://linkedin.com/in/velusamy-g",
     aboutBio: [
       "I am a B.Tech Artificial Intelligence & Data Science graduate from Nandha Engineering College, with a deep passion for modern software engineering, scalable backend architecture, and applied machine learning.",
@@ -179,7 +179,7 @@ export const PORTFOLIO_DATA = {
         { label: "Registry", value: "Netflix Eureka" },
         { label: "Database", value: "MySQL / JPA" }
       ],
-      githubUrl: "https://github.com/VELUSAMY-22AIO56/SkillSphere-Microservices",
+      githubUrl: "https://github.com/VELUSAMY-22AI056/SkillSphere-Microservices",
       liveUrl: "#"
     },
     {
@@ -222,7 +222,7 @@ export const PORTFOLIO_DATA = {
         { label: "UI Dashboard", value: "Streamlit" },
         { label: "Focus", value: "Cybersecurity" }
       ],
-      githubUrl: "https://github.com/VELUSAMY-22AIO56/Explainable-DQN-NIDS",
+      githubUrl: "https://github.com/VELUSAMY-22AI056/Explainable-DQN-NIDS",
       liveUrl: "#"
     },
     {
@@ -265,7 +265,7 @@ export const PORTFOLIO_DATA = {
         { label: "Gas Detection", value: "MQ-3 Sensor" },
         { label: "Response", value: "Real-Time Edge" }
       ],
-      githubUrl: "https://github.com/VELUSAMY-22AIO56/Anti-Sleep-Driver-Safety",
+      githubUrl: "https://github.com/VELUSAMY-22AI056/Anti-Sleep-Driver-Safety",
       liveUrl: "#"
     }
   ] as Project[],
@@ -368,8 +368,8 @@ export const PORTFOLIO_DATA = {
   ] as AchievementItem[],
 
   github: {
-    username: "VELUSAMY-22AIO56",
-    profileUrl: "https://github.com/VELUSAMY-22AIO56",
+    username: "VELUSAMY-22AI056",
+    profileUrl: "https://github.com/VELUSAMY-22AI056",
     headline: "Building. Learning. Shipping.",
     bio: "AI & Data Science Student | Java & Spring Boot Developer | Open-Source Contributor",
     repositories: [
@@ -380,7 +380,7 @@ export const PORTFOLIO_DATA = {
         languageColor: "#b07219",
         stars: 12,
         forks: 4,
-        url: "https://github.com/VELUSAMY-22AIO56/SkillSphere-Microservices"
+        url: "https://github.com/VELUSAMY-22AI056/SkillSphere-Microservices"
       },
       {
         name: "Explainable-DQN-NIDS",
@@ -389,7 +389,7 @@ export const PORTFOLIO_DATA = {
         languageColor: "#3572A5",
         stars: 15,
         forks: 5,
-        url: "https://github.com/VELUSAMY-22AIO56/Explainable-DQN-NIDS"
+        url: "https://github.com/VELUSAMY-22AI056/Explainable-DQN-NIDS"
       },
       {
         name: "Anti-Sleep-Driver-Safety",
@@ -398,7 +398,7 @@ export const PORTFOLIO_DATA = {
         languageColor: "#f34b7d",
         stars: 9,
         forks: 2,
-        url: "https://github.com/VELUSAMY-22AIO56/Anti-Sleep-Driver-Safety"
+        url: "https://github.com/VELUSAMY-22AI056/Anti-Sleep-Driver-Safety"
       },
       {
         name: "Java-Spring-Boot-Rest-APIs",
@@ -407,7 +407,7 @@ export const PORTFOLIO_DATA = {
         languageColor: "#b07219",
         stars: 8,
         forks: 3,
-        url: "https://github.com/VELUSAMY-22AIO56/Java-Spring-Boot-Rest-APIs"
+        url: "https://github.com/VELUSAMY-22AI056/Java-Spring-Boot-Rest-APIs"
       }
     ],
     techBreakdown: [
