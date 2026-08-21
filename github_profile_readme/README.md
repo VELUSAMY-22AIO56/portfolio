@@ -3,7 +3,7 @@
 # Hi there, I'm Velusamy G 👋
 ### Java Developer & AI/ML Engineer | B.Tech Artificial Intelligence & Data Science Graduate
 
-[![Portfolio](https://img.shields.io/badge/🌐_Live_Portfolio-06b6d4?style=for-the-badge&logoColor=white)](https://VELUSAMY-22AI056.github.io/portfolio/)
+[![Portfolio](https://img.shields.io/badge/🌐_Live_Portfolio-06b6d4?style=for-the-badge&logoColor=white)](https://VELUSAMY-22AIO56.github.io/portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/velusamy-g)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:velu2004.guru@gmail.com)
 
@@ -41,12 +41,10 @@
 
 ### 🌟 Featured Projects
 
-- 🌐 **[SkillSphere — Microservices Platform](https://github.com/VELUSAMY-22AI056/portfolio)**
-  - Decoupled skill & examination platform using Spring Boot, Spring Cloud Gateway, Netflix Eureka discovery, and JWT-secured REST APIs.
-- 🛡️ **[Explainable DQN for Network Intrusion Detection](https://github.com/VELUSAMY-22AI056/portfolio)**
-  - Deep Q-Network reinforcement learning agent for multi-class cyber attack classification with SHAP & LIME transparency dashboards.
-- 🚗 **[Anti-Sleep & Hazard Safety System](https://github.com/VELUSAMY-22AI056/portfolio)**
-  - Real-time IoT edge device with ESP32-CAM optical fatigue tracking, MQ-3 alcohol sensor, and SIM800C GSM SMS alerts.
+- 🌐 **[Employee Management System — Spring Boot](https://github.com/VELUSAMY-22AIO56/Employee-Management-System-Using-Spring)**
+  - Full-stack enterprise employee management service utilizing Java, Spring Boot, Spring Security, REST APIs, and relational persistence.
+- 🚗 **[Driver Anti-Sleep & Safety Device](https://github.com/VELUSAMY-22AIO56/DRIVER-ANTI-SLEEP-DEVICE-)**
+  - Real-time IoT edge device with ESP32-CAM optical fatigue tracking, MQ-3 alcohol sensor, buzzer/vibration alerts, and SIM800C GSM SMS notifications.
 
 ---
 
@@ -54,8 +52,8 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=VELUSAMY-22AI056&show_icons=true&theme=tokyonight&hide_border=true&bg_color=090d16" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VELUSAMY-22AI056&layout=compact&theme=tokyonight&hide_border=true&bg_color=090d16" alt="Top Languages" />
+<img src="https://github-readme-stats.vercel.app/api?username=VELUSAMY-22AIO56&show_icons=true&theme=tokyonight&hide_border=true&bg_color=090d16" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VELUSAMY-22AIO56&layout=compact&theme=tokyonight&hide_border=true&bg_color=090d16" alt="Top Languages" />
 
 </div>
 
@@ -63,6 +61,6 @@
 
 <div align="center">
 
-📫 **Let's Connect:** [velu2004.guru@gmail.com](mailto:velu2004.guru@gmail.com) • [LinkedIn](https://linkedin.com/in/velusamy-g) • [Live Portfolio](https://VELUSAMY-22AI056.github.io/portfolio/)
+📫 **Let's Connect:** [velu2004.guru@gmail.com](mailto:velu2004.guru@gmail.com) • [LinkedIn](https://linkedin.com/in/velusamy-g) • [Live Portfolio](https://VELUSAMY-22AIO56.github.io/portfolio/)
 
 </div>

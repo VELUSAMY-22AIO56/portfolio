@@ -8,8 +8,8 @@ const PORTFOLIO_DATA = {
     college: "Nandha Engineering College",
     location: "Tamil Nadu, India",
     email: "velu2004.guru@gmail.com",
-    githubUsername: "VELUSAMY-22AI056",
-    githubUrl: "https://github.com/VELUSAMY-22AI056",
+    githubUsername: "VELUSAMY-22AIO56",
+    githubUrl: "https://github.com/VELUSAMY-22AIO56",
     linkedinUrl: "https://linkedin.com/in/velusamy-g",
     aboutBio: [
       "I am a B.Tech Artificial Intelligence & Data Science graduate from Nandha Engineering College, dedicated to building scalable backend systems, microservices architectures, and practical intelligent applications.",
@@ -96,80 +96,47 @@ const PORTFOLIO_DATA = {
 
   projects: [
     {
-      id: "skillsphere",
-      title: "SkillSphere",
-      subtitle: "Enterprise Skill & Course Management Platform",
+      id: "employee-management",
+      title: "Employee Management System",
+      subtitle: "Enterprise Management Platform with Spring Boot & REST APIs",
       category: "backend",
       isFeatured: true,
-      highlightBadge: "Backend & Microservices Showcase",
+      highlightBadge: "Java & Spring Backend Showcase",
       badgeColor: "emerald",
       icon: "layers",
-      description: "A modern, decoupled skill and examination platform architected with Java, Spring Boot Microservices, Spring Cloud API Gateway, and Netflix Eureka for dynamic discovery.",
-      longDescription: "SkillSphere is built from the ground up to demonstrate enterprise microservices principles. The system decouples User Management, Skill Catalogs, and Examination Assessment engines into dedicated Spring Boot services communicating over RESTful contracts with Spring Cloud Gateway and Eureka Service Discovery. Security is enforced through stateless JWT tokens and Spring Security RBAC.",
+      description: "A robust enterprise employee and department management backend application architected with Java, Spring Boot, Spring Security, and MySQL database persistence.",
+      longDescription: "Employee Management System is engineered to demonstrate production-grade backend principles using Java and Spring Boot. The system provides secure RESTful APIs for managing employees, department hierarchies, salaries, and roles. It incorporates comprehensive input validation, exception handling, JPA database relationships, and Postman API contract testing.",
       technologies: [
-        "Java", "Spring Boot", "Microservices", "REST APIs", "Spring Security", "JWT", "API Gateway", "Eureka", "MySQL", "Maven"
+        "Java", "Spring Boot", "REST APIs", "Spring Security", "Hibernate / JPA", "MySQL", "Maven", "Postman"
       ],
       features: [
-        "Authentication & Role-Based Access Control (RBAC) via Spring Security & JWT",
-        "Decoupled User Management & Student Profile Service",
-        "Course & Skill Catalog Service with CRUD management",
-        "Interactive Examination Engine with automated grading",
-        "Spring Cloud API Gateway for unified routing and rate-limiting",
-        "Service Discovery & Health Registry via Netflix Eureka",
-        "Persistent relational storage using Spring Data JPA & MySQL"
+        "Complete CRUD lifecycle operations for employee and department data",
+        "Role-Based Access Control (RBAC) and secure API endpoint authorization",
+        "Dynamic pagination, sorting, and multi-field filtering capabilities",
+        "Relational database schema modeling with Spring Data JPA and MySQL",
+        "Global exception handling and structured JSON response formatting",
+        "Extensive API contract verification with Postman collection testing"
       ],
-      architectureSummary: "Client Apps ➔ Spring Cloud API Gateway (JWT Auth Filter) ➔ Dynamic Route Resolution via Eureka ➔ User Service | Skill Service | Exam Service ➔ MySQL Databases",
+      architectureSummary: "Client HTTP Requests ➔ Spring Boot REST Controllers (Validation) ➔ Service Layer (Business Logic) ➔ Spring Data JPA Repositories ➔ MySQL Database",
       architecturePoints: [
-        "Decoupled Service Model: User, Skill, and Exam modules operate as self-contained Spring Boot microservices.",
-        "Centralized Gateway: Spring Cloud API Gateway manages cross-cutting concerns like token validation, rate-limiting, and request forwarding.",
-        "Dynamic Registry: Netflix Eureka handles zero-configuration service discovery and automated health monitoring.",
-        "Data Integrity: Spring Data JPA + MySQL ensure strict schema validation and ACID-compliant transactional guarantees."
+        "Layered Architecture: Clean separation of Concerns across Controllers, Service interfaces, and Data Access Layers.",
+        "Data Validation: Jakarta Bean Validation constraints ensuring high data integrity at API boundaries.",
+        "ORM Persistence: Hibernate JPA entity mappings with optimized transactional queries.",
+        "REST Standards: Strict adherence to HTTP status codes, idempotent operations, and RESTful resource naming."
       ],
-      githubUrl: "https://github.com/VELUSAMY-22AI056/SkillSphere-Microservices",
-      liveUrl: "#"
-    },
-    {
-      id: "dqn-nids",
-      title: "Explainable Deep Q-Networks for Network Intrusion Detection",
-      subtitle: "Intelligent Network Threat Classifier with SHAP & LIME",
-      category: "ai-ml",
-      isFeatured: true,
-      highlightBadge: "AI/ML & Cybersecurity",
-      badgeColor: "purple",
-      icon: "shield-alert",
-      description: "An AI-powered network intrusion detection system using Deep Q-Networks (DQN) to detect and classify multi-class network attacks, augmented with Explainable AI techniques.",
-      longDescription: "Standard deep learning models often operate as opaque black boxes in cybersecurity. This project implements a Deep Q-Network reinforcement learning agent that evaluates network packet feature vectors to classify normal vs malicious anomalies. To provide actionable intelligence for security analysts, it integrates SHAP and LIME algorithms to produce local and global feature attribution graphs in real time.",
-      technologies: [
-        "Python", "DQN", "Machine Learning", "SHAP", "LIME", "Scikit-learn", "Streamlit", "Pandas", "NumPy"
-      ],
-      features: [
-        "Network attack detection and multi-vector anomaly classification",
-        "Deep Q-Network reinforcement learning policy network",
-        "Explainable AI engine calculating SHAP Shapley feature contributions",
-        "LIME local surrogate perturbations for packet-level explainability",
-        "Interactive Streamlit web dashboard for real-time visualization",
-        "Comprehensive model diagnostics (Confusion Matrix, Precision/Recall, ROC-AUC)"
-      ],
-      architectureSummary: "Packet Features ➔ Preprocessor & Scaler ➔ DQN Policy Network (Prediction) ➔ SHAP / LIME Explainer ➔ Streamlit Interactive Dashboard",
-      architecturePoints: [
-        "Feature Engineering: Real-time scaling and normalization of high-dimensional packet logs with Pandas/NumPy.",
-        "Reinforcement Learning: Deep Q-Network optimizes state-action policies for accurate attack classification.",
-        "Explainability Hook: Computes marginal feature contributions to explain why a specific packet was flagged.",
-        "Visual Diagnostics: Streamlit UI delivers live waterfall plots and decision boundaries for SOC analysts."
-      ],
-      githubUrl: "https://github.com/VELUSAMY-22AI056/Explainable-DQN-NIDS",
+      githubUrl: "https://github.com/VELUSAMY-22AIO56/Employee-Management-System-Using-Spring",
       liveUrl: "#"
     },
     {
       id: "anti-sleep-driver",
-      title: "Anti-Sleep Device for Drivers Using ESP32-CAM",
-      subtitle: "Real-Time Embedded Safety & Alcohol Hazard System",
+      title: "Driver Anti-Sleep & Safety Device",
+      subtitle: "Real-Time Embedded Driver Safety & Alcohol Hazard System",
       category: "embedded",
       isFeatured: true,
       highlightBadge: "Embedded IoT & Safety",
       badgeColor: "cyan",
       icon: "radio",
-      description: "A real-time vehicular safety system that detects driver drowsiness and alcohol presence, providing immediate acoustic, tactile, LCD, and GSM SMS alerts.",
+      description: "A real-time vehicular safety system using ESP32-CAM and MQ-3 sensor that detects driver drowsiness and alcohol presence, triggering immediate acoustic, tactile, LCD, and GSM SMS alerts.",
       longDescription: "An edge computing and IoT hardware device designed for vehicular accident prevention. The module utilizes an ESP32-CAM optical sensor for real-time eye-closure and facial fatigue monitoring alongside an MQ-3 electrochemical sensor for in-cabin alcohol vapor detection. When dangerous fatigue or intoxication thresholds are met, the system activates buzzers, a vibration motor, outputs telemetry to a 16x2 LCD, and dispatches automated SMS alerts via a SIM800C GSM module.",
       technologies: [
         "ESP32", "ESP32-CAM", "GSM SIM800C", "MQ-3 Sensor", "Arduino IDE", "LCD 16x2", "Buzzer", "Vibration Motor", "C/C++"
@@ -189,7 +156,7 @@ const PORTFOLIO_DATA = {
         "Telemetry & Telephony: SIM800C executes AT commands to immediately broadcast warning messages.",
         "Active Safety: Integrates an ignition lockout relay to prevent driving under unsafe conditions."
       ],
-      githubUrl: "https://github.com/VELUSAMY-22AI056/Anti-Sleep-Driver-Safety",
+      githubUrl: "https://github.com/VELUSAMY-22AIO56/DRIVER-ANTI-SLEEP-DEVICE-",
       liveUrl: "#"
     }
   ],
@@ -244,11 +211,11 @@ const PORTFOLIO_DATA = {
     },
     {
       id: "2",
-      title: "Network Intrusion Detection Research/Project",
-      category: "Cybersecurity & XAI",
-      description: "Implemented Deep Q-Networks with SHAP and LIME explainability for transparent, interpretable cybersecurity telemetry.",
-      icon: "shield-check",
-      tag: "Explainable AI"
+      title: "Embedded Safety & IoT Systems Engineering",
+      category: "Embedded IoT & Hardware",
+      description: "Engineered real-time edge driver drowsiness and alcohol detection systems integrating ESP32-CAM and SIM800C GSM alerts.",
+      icon: "radio",
+      tag: "Embedded IoT"
     },
     {
       id: "3",
@@ -285,45 +252,27 @@ const PORTFOLIO_DATA = {
   ],
 
   github: {
-    username: "VELUSAMY-22AI056",
-    profileUrl: "https://github.com/VELUSAMY-22AI056",
+    username: "VELUSAMY-22AIO56",
+    profileUrl: "https://github.com/VELUSAMY-22AIO56",
     headline: "Building. Learning. Shipping.",
     repositories: [
       {
-        name: "SkillSphere-Microservices",
-        description: "Enterprise skill and learning management platform with Spring Boot, Spring Cloud Gateway, Eureka & JWT.",
+        name: "Employee-Management-System-Using-Spring",
+        description: "Enterprise employee management backend application with Spring Boot, Spring Security, JPA & REST APIs.",
         language: "Java",
         languageColor: "#f97316",
         stars: 12,
         forks: 4,
-        url: "https://github.com/VELUSAMY-22AI056/SkillSphere-Microservices"
+        url: "https://github.com/VELUSAMY-22AIO56/Employee-Management-System-Using-Spring"
       },
       {
-        name: "Explainable-DQN-NIDS",
-        description: "Network intrusion detection system using Deep Q-Networks with SHAP & LIME explainability.",
-        language: "Python",
-        languageColor: "#3b82f6",
-        stars: 15,
-        forks: 5,
-        url: "https://github.com/VELUSAMY-22AI056/Explainable-DQN-NIDS"
-      },
-      {
-        name: "Anti-Sleep-Driver-Safety",
-        description: "Real-time driver drowsiness and alcohol detection system with ESP32-CAM and SIM800C GSM.",
+        name: "DRIVER-ANTI-SLEEP-DEVICE-",
+        description: "Real-time driver drowsiness and alcohol detection system with ESP32-CAM and SIM800C GSM alerts.",
         language: "C++",
         languageColor: "#ec4899",
         stars: 9,
         forks: 2,
-        url: "https://github.com/VELUSAMY-22AI056/Anti-Sleep-Driver-Safety"
-      },
-      {
-        name: "Java-Spring-Boot-Rest-APIs",
-        description: "Production patterns for Spring Boot RESTful services, JWT auth filters, and JPA relationship mapping.",
-        language: "Java",
-        languageColor: "#f97316",
-        stars: 8,
-        forks: 3,
-        url: "https://github.com/VELUSAMY-22AI056/Java-Spring-Boot-Rest-APIs"
+        url: "https://github.com/VELUSAMY-22AIO56/DRIVER-ANTI-SLEEP-DEVICE-"
       }
     ],
     techBreakdown: [
@@ -464,9 +413,9 @@ function renderProjects() {
   if (!container) return;
 
   container.innerHTML = PORTFOLIO_DATA.projects.map((project, index) => {
-    const isMicroservices = project.id === 'skillsphere';
+    const isBackend = project.id === 'employee-management';
     return `
-    <div class="glow-card glass-panel rounded-2xl border ${isMicroservices ? 'border-emerald-500/30 bg-slate-900/60 ring-1 ring-emerald-500/20' : 'border-slate-800/80 bg-slate-900/40'} p-6 md:p-8 flex flex-col justify-between transition-all duration-300">
+    <div class="glow-card glass-panel rounded-2xl border ${isBackend ? 'border-emerald-500/30 bg-slate-900/60 ring-1 ring-emerald-500/20' : 'border-slate-800/80 bg-slate-900/40'} p-6 md:p-8 flex flex-col justify-between transition-all duration-300">
       <div>
         <!-- Card Header Badges -->
         <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
@@ -480,14 +429,17 @@ function renderProjects() {
             }">
               ${project.highlightBadge}
             </span>
-            ${isMicroservices ? '<span class="hidden sm:inline-flex items-center gap-1 text-[11px] font-medium bg-emerald-950/60 text-emerald-300 border border-emerald-800/60 px-2.5 py-0.5 rounded-full"><i data-lucide="sparkles" class="w-3 h-3"></i> Core Backend</span>' : ''}
+            ${isBackend ? '<span class="hidden sm:inline-flex items-center gap-1 text-[11px] font-medium bg-emerald-950/60 text-emerald-300 border border-emerald-800/60 px-2.5 py-0.5 rounded-full"><i data-lucide="sparkles" class="w-3 h-3"></i> Core Backend</span>' : ''}
           </div>
           <span class="text-xs font-mono-code text-slate-500">Project 0${index + 1}</span>
         </div>
 
-        <!-- Project Title -->
-        <h3 class="text-xl md:text-2xl font-bold text-slate-100 hover:text-cyan-400 transition-colors">
-          ${project.title}
+        <!-- Project Title Linked to GitHub -->
+        <h3 class="text-xl md:text-2xl font-bold text-slate-100 mb-1">
+          <a href="${project.githubUrl}" target="_blank" rel="noopener noreferrer" class="hover:text-cyan-400 transition-colors inline-flex items-center gap-2">
+            <span>${project.title}</span>
+            <i data-lucide="external-link" class="w-4 h-4 text-slate-500 hover:text-cyan-400 shrink-0"></i>
+          </a>
         </h3>
         <p class="text-sm font-medium text-cyan-400/90 mt-1 mb-4 font-mono-code">
           ${project.subtitle}
@@ -524,7 +476,7 @@ function renderProjects() {
           <a href="${project.githubUrl}" target="_blank" rel="noopener noreferrer" 
              class="inline-flex items-center gap-1.5 text-xs font-medium text-slate-200 bg-slate-800 hover:bg-slate-700 hover:text-white px-3.5 py-2 rounded-lg border border-slate-700/60 transition-colors">
             <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path></svg>
-            <span>GitHub</span>
+            <span>GitHub Repo</span>
           </a>
           <button onclick="openProjectModal('${project.id}')"
              class="inline-flex items-center gap-1.5 text-xs font-medium text-cyan-300 bg-cyan-950/40 hover:bg-cyan-900/50 px-3.5 py-2 rounded-lg border border-cyan-800/50 transition-colors">

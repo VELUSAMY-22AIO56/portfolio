@@ -21,9 +21,8 @@
 
 - **Aesthetic**: Premium dark mode (`#090d16`), subtle ambient glow effects, responsive developer grid patterns, and glassmorphism panels.
 - **Interactive Holographic Core**: 3D mouse parallax tilt effect with rotating orbital rings, floating tech satellites, and dynamic canvas particle network.
-- **Microservices Focus**: Architecture showcase for **SkillSphere** with Eureka discovery, Spring Cloud API Gateway, and JWT security.
-- **Explainable AI (XAI)**: Project deep dive into **Explainable Deep Q-Networks for NIDS** with real-time SHAP and LIME model transparency.
-- **Embedded Edge Safety**: Real-time driver drowsiness & alcohol detection hardware with ESP32-CAM and SIM800C GSM SMS alerts.
+- **Backend Architecture**: Enterprise showcase for **Employee Management System** with Spring Boot, Spring Security, and MySQL JPA.
+- **Embedded Edge Safety**: Real-time driver drowsiness & alcohol detection hardware with **ESP32-CAM and SIM800C GSM SMS alerts**.
 - **Interactive Modals**: System Architecture & Case Study explorer + Printable/PDF Resume viewer.
 - **Live GitHub Activity Integration**: Pinned repository showcases, activity cadence grid, and code language distribution.
 - **100% Zero-Dependency / Static Deploy Ready**: Runs directly in any modern browser without complex build steps, or deployable to GitHub Pages / Vercel / Netlify.
@@ -77,17 +76,15 @@ Start-Process .\index.html
 
 ## 🌟 Featured Engineering Projects
 
-### 1. SkillSphere — Microservices Platform
-- **Stack**: Java, Spring Boot, Microservices, REST APIs, Spring Security, JWT, API Gateway, Eureka, MySQL
-- **Description**: Cloud-native learning and examination microservices platform featuring centralized API Gateway routing, stateless JWT authentication, and dynamic Netflix Eureka service discovery.
+### 1. Employee Management System Using Spring
+- **Stack**: Java, Spring Boot, REST APIs, Spring Security, Hibernate/JPA, MySQL, Maven
+- **Repository**: [Employee-Management-System-Using-Spring](https://github.com/VELUSAMY-22AIO56/Employee-Management-System-Using-Spring)
+- **Description**: Enterprise employee and department management backend application with Spring Boot, Spring Security, RESTful APIs, exception handling, and MySQL database persistence.
 
-### 2. Explainable Deep Q-Networks for Network Intrusion Detection
-- **Stack**: Python, DQN, Machine Learning, SHAP, LIME, Scikit-learn, Streamlit, Pandas, NumPy
-- **Description**: AI-powered network threat detection system using Deep Q-Networks with SHAP and LIME post-hoc explainability dashboards to eliminate black-box opacity in cybersecurity.
-
-### 3. Anti-Sleep Device for Drivers Using ESP32-CAM
-- **Stack**: ESP32, ESP32-CAM, GSM SIM800C, MQ-3 Sensor, Arduino IDE, LCD, Buzzer, Vibration Motor
-- **Description**: Edge computing safety system detecting driver drowsiness and alcohol vapor, triggering multi-tier acoustic/tactile alerts, LCD readouts, and automated GSM SMS notifications.
+### 2. Driver Anti-Sleep & Safety Device
+- **Stack**: ESP32, ESP32-CAM, GSM SIM800C, MQ-3 Sensor, Arduino IDE, LCD, Buzzer, Vibration Motor, C/C++
+- **Repository**: [DRIVER-ANTI-SLEEP-DEVICE-](https://github.com/VELUSAMY-22AIO56/DRIVER-ANTI-SLEEP-DEVICE-)
+- **Description**: Real-time vehicular safety system detecting driver drowsiness and alcohol vapor, triggering multi-tier acoustic/tactile alerts, LCD readouts, and automated GSM SMS notifications.
 
 ---
 

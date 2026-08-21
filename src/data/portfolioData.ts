@@ -60,8 +60,8 @@ export const PORTFOLIO_DATA = {
     college: "Nandha Engineering College",
     location: "Tamil Nadu, India",
     email: "velu2004.guru@gmail.com",
-    githubUsername: "VELUSAMY-22AI056",
-    githubUrl: "https://github.com/VELUSAMY-22AI056",
+    githubUsername: "VELUSAMY-22AIO56",
+    githubUrl: "https://github.com/VELUSAMY-22AIO56",
     linkedinUrl: "https://linkedin.com/in/velusamy-g",
     aboutBio: [
       "I am a B.Tech Artificial Intelligence & Data Science graduate from Nandha Engineering College, with a deep passion for modern software engineering, scalable backend architecture, and applied machine learning.",
@@ -138,101 +138,55 @@ export const PORTFOLIO_DATA = {
 
   projects: [
     {
-      id: "skillsphere",
-      title: "SkillSphere",
-      subtitle: "Enterprise Skill & Learning Management Microservices Platform",
+      id: "employee-management",
+      title: "Employee Management System",
+      subtitle: "Enterprise Management Platform with Spring Boot & REST APIs",
       category: "backend",
       isFeatured: true,
-      badge: "Backend & Microservices Spotlight",
-      description: "A modern, distributed learning and skill management platform architected using Java and Spring Boot Microservices with Spring Cloud Gateway, Eureka discovery, and JWT-secured RESTful endpoints.",
-      longDescription: "SkillSphere is built from the ground up as a cloud-native microservices architecture designed to decouple user management, skill catalogs, and examination engines. It features centralized authentication with Spring Security and JWT, an API Gateway for routing and rate-limiting, dynamic service registration using Netflix Eureka, and database persistence through Spring Data JPA with MySQL.",
+      badge: "Java & Spring Backend Spotlight",
+      description: "A robust enterprise employee and department management backend application architected with Java, Spring Boot, Spring Security, and MySQL database persistence.",
+      longDescription: "Employee Management System is engineered to demonstrate production-grade backend principles using Java and Spring Boot. The system provides secure RESTful APIs for managing employees, department hierarchies, salaries, and roles. It incorporates comprehensive input validation, exception handling, JPA database relationships, and Postman API contract testing.",
       technologies: [
         "Java",
         "Spring Boot",
-        "Microservices",
         "REST APIs",
         "Spring Security",
-        "JWT",
-        "API Gateway",
-        "Eureka",
+        "Hibernate / JPA",
         "MySQL",
-        "Maven"
+        "Maven",
+        "Postman"
       ],
       features: [
-        "Stateless Authentication & Role-Based Access Control (RBAC) with JWT tokens",
-        "Decoupled User Management and Profile Service",
-        "Skill, Course, and Curriculum Management Service",
-        "Interactive Examination & Automated Assessment Evaluation Module",
-        "Spring Cloud API Gateway for unified routing and security filtering",
-        "Service Discovery & Dynamic Health Registry with Netflix Eureka",
-        "Inter-service REST communication with resilient error handling"
+        "Complete CRUD lifecycle operations for employee and department data",
+        "Role-Based Access Control (RBAC) and secure API endpoint authorization",
+        "Dynamic pagination, sorting, and multi-field filtering capabilities",
+        "Relational database schema modeling with Spring Data JPA and MySQL",
+        "Global exception handling and structured JSON response formatting",
+        "Extensive API contract verification with Postman collection testing"
       ],
       architecturePoints: [
-        "Client Request -> Spring Cloud API Gateway (JWT Validation & Route Filtering)",
-        "Eureka Service Discovery dynamically discovers registered backend services",
-        "Independent User-Service, Skill-Service, and Exam-Service instances",
-        "Relational schema design with MySQL and Hibernate ORM for ACID transactions"
+        "Layered Architecture: Clean separation across Controllers, Service, and Data Access Layers",
+        "Data Validation: Jakarta Bean Validation constraints for strict API boundary validation",
+        "ORM Persistence: Hibernate JPA entity mappings with transactional queries",
+        "REST Standards: Strict adherence to HTTP status codes and RESTful conventions"
       ],
       metrics: [
-        { label: "Architecture", value: "Microservices" },
-        { label: "Security", value: "JWT & Spring Security" },
-        { label: "Registry", value: "Netflix Eureka" },
+        { label: "Architecture", value: "REST API Backend" },
+        { label: "Security", value: "Spring Security / RBAC" },
+        { label: "Framework", value: "Spring Boot" },
         { label: "Database", value: "MySQL / JPA" }
       ],
-      githubUrl: "https://github.com/VELUSAMY-22AI056/SkillSphere-Microservices",
-      liveUrl: "#"
-    },
-    {
-      id: "dqn-nids",
-      title: "Explainable Deep Q-Networks for Network Intrusion Detection",
-      subtitle: "AI-Powered Intrusion Detection with Post-Hoc Model Explainability",
-      category: "ai-ml",
-      isFeatured: true,
-      badge: "AI/ML & Cybersecurity",
-      description: "An AI-powered network intrusion detection system utilizing Deep Q-Networks (DQN) to detect and classify complex network attacks, enhanced with SHAP and LIME for transparent model interpretability.",
-      longDescription: "This research and engineering project addresses black-box opacity in cybersecurity machine learning. By training a Deep Q-Network reinforcement learning agent on network traffic feature vectors, the system accurately classifies benign vs malicious anomaly patterns. It integrates SHAP (SHapley Additive exPlanations) and LIME to generate per-packet feature importance visualizations, enabling security analysts to understand exactly why a traffic sample was flagged.",
-      technologies: [
-        "Python",
-        "DQN (Deep Q-Network)",
-        "Machine Learning",
-        "SHAP",
-        "LIME",
-        "Scikit-learn",
-        "Streamlit",
-        "Pandas",
-        "NumPy"
-      ],
-      features: [
-        "Real-time network attack detection and multi-class anomaly classification",
-        "Reinforcement learning agent trained with deep Q-value policy estimation",
-        "Explainable AI (XAI) engine generating SHAP summary & waterfall plots",
-        "LIME local surrogate explainers for fine-grained packet decision analysis",
-        "Interactive Streamlit web dashboard for visualization and live traffic inspection",
-        "Comprehensive model performance analysis (Precision, Recall, F1, ROC-AUC)"
-      ],
-      architecturePoints: [
-        "Raw Network Packet Preprocessing -> Scaler & Feature Extractor (Pandas/NumPy)",
-        "DQN Policy Network Evaluates State Space -> Action: Attack Class Prediction",
-        "Explainability Hook -> Computes SHAP Shapley values & LIME perturbation scores",
-        "Streamlit UI Visualizes Attack Vectors & Decision Reasoning in real time"
-      ],
-      metrics: [
-        { label: "Model Type", value: "Deep Q-Network" },
-        { label: "Explainability", value: "SHAP & LIME" },
-        { label: "UI Dashboard", value: "Streamlit" },
-        { label: "Focus", value: "Cybersecurity" }
-      ],
-      githubUrl: "https://github.com/VELUSAMY-22AI056/Explainable-DQN-NIDS",
+      githubUrl: "https://github.com/VELUSAMY-22AIO56/Employee-Management-System-Using-Spring",
       liveUrl: "#"
     },
     {
       id: "anti-sleep-driver",
-      title: "Anti-Sleep Device for Drivers Using ESP32-CAM",
+      title: "Driver Anti-Sleep & Safety Device",
       subtitle: "Real-Time Embedded Driver Safety & Hazard Alert System",
       category: "embedded",
       isFeatured: true,
       badge: "Embedded IoT & Safety",
-      description: "A real-time driver safety system that detects driver drowsiness and alcohol presence, triggering immediate multi-tier visual, acoustic, vibration, and GSM SMS alerts.",
+      description: "A real-time vehicular safety system using ESP32-CAM and MQ-3 sensor that detects driver drowsiness and alcohol presence, triggering immediate multi-tier visual, acoustic, vibration, and GSM SMS alerts.",
       longDescription: "Developed as an embedded edge hardware solution for vehicular accident prevention. The system combines an ESP32-CAM module running computer vision algorithms for eye-closure and yawn monitoring with an MQ-3 electrochemical sensor for breath alcohol detection. If critical thresholds are breached, the device triggers active buzzers, vibration motors, displays hazard telemetry on an LCD screen, transmits emergency GPS/SMS coordinates via a SIM800C GSM module, and engages an ignition safety cutoff.",
       technologies: [
         "ESP32",
@@ -265,7 +219,7 @@ export const PORTFOLIO_DATA = {
         { label: "Gas Detection", value: "MQ-3 Sensor" },
         { label: "Response", value: "Real-Time Edge" }
       ],
-      githubUrl: "https://github.com/VELUSAMY-22AI056/Anti-Sleep-Driver-Safety",
+      githubUrl: "https://github.com/VELUSAMY-22AIO56/DRIVER-ANTI-SLEEP-DEVICE-",
       liveUrl: "#"
     }
   ] as Project[],
@@ -327,19 +281,19 @@ export const PORTFOLIO_DATA = {
     },
     {
       id: "2",
-      title: "Network Intrusion Detection Research/Project",
-      category: "Cybersecurity & XAI",
-      description: "Designed and trained Deep Q-Networks with SHAP/LIME explainability tools for transparent, high-precision network intrusion detection.",
-      icon: "shield-check",
-      tag: "Cybersecurity"
+      title: "Embedded Safety & IoT Systems Engineering",
+      category: "Embedded IoT & Hardware",
+      description: "Engineered real-time edge driver drowsiness and alcohol detection systems integrating ESP32-CAM and SIM800C GSM alerts.",
+      icon: "radio",
+      tag: "Embedded IoT"
     },
     {
       id: "3",
-      title: "Microservices Application Development",
-      category: "Backend Architecture",
-      description: "Built modular microservice architectures featuring API Gateway, Netflix Eureka discovery, and Spring Security JWT authentication.",
-      icon: "layers",
-      tag: "Distributed Systems"
+      title: "Full-Stack Web & UI Development",
+      category: "Frontend & Web Engineering",
+      description: "Designed responsive, interactive developer interfaces featuring Canvas particles, 3D tilt effects, and accessible UI.",
+      icon: "code",
+      tag: "Web Development"
     },
     {
       id: "4",
@@ -368,46 +322,28 @@ export const PORTFOLIO_DATA = {
   ] as AchievementItem[],
 
   github: {
-    username: "VELUSAMY-22AI056",
-    profileUrl: "https://github.com/VELUSAMY-22AI056",
+    username: "VELUSAMY-22AIO56",
+    profileUrl: "https://github.com/VELUSAMY-22AIO56",
     headline: "Building. Learning. Shipping.",
     bio: "AI & Data Science Student | Java & Spring Boot Developer | Open-Source Contributor",
     repositories: [
       {
-        name: "SkillSphere-Microservices",
-        description: "Enterprise skill and learning management platform with Spring Boot, Spring Cloud Gateway, Eureka & JWT.",
+        name: "Employee-Management-System-Using-Spring",
+        description: "Enterprise employee management backend application with Spring Boot, Spring Security, JPA & REST APIs.",
         language: "Java",
         languageColor: "#b07219",
         stars: 12,
         forks: 4,
-        url: "https://github.com/VELUSAMY-22AI056/SkillSphere-Microservices"
+        url: "https://github.com/VELUSAMY-22AIO56/Employee-Management-System-Using-Spring"
       },
       {
-        name: "Explainable-DQN-NIDS",
-        description: "Network intrusion detection system using Deep Q-Networks with SHAP & LIME explainability.",
-        language: "Python",
-        languageColor: "#3572A5",
-        stars: 15,
-        forks: 5,
-        url: "https://github.com/VELUSAMY-22AI056/Explainable-DQN-NIDS"
-      },
-      {
-        name: "Anti-Sleep-Driver-Safety",
+        name: "DRIVER-ANTI-SLEEP-DEVICE-",
         description: "Real-time driver drowsiness and alcohol detection system with ESP32-CAM and SIM800C GSM.",
         language: "C++",
         languageColor: "#f34b7d",
         stars: 9,
         forks: 2,
-        url: "https://github.com/VELUSAMY-22AI056/Anti-Sleep-Driver-Safety"
-      },
-      {
-        name: "Java-Spring-Boot-Rest-APIs",
-        description: "Collection of enterprise REST API design patterns, JWT security filters, and Hibernate mappings.",
-        language: "Java",
-        languageColor: "#b07219",
-        stars: 8,
-        forks: 3,
-        url: "https://github.com/VELUSAMY-22AI056/Java-Spring-Boot-Rest-APIs"
+        url: "https://github.com/VELUSAMY-22AIO56/DRIVER-ANTI-SLEEP-DEVICE-"
       }
     ],
     techBreakdown: [
